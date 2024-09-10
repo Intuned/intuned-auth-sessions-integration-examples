@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  credentials-based-auth-session-with-2fa:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: credentials-based-auth-session-with-2fa
+    ports:
+      - "5122:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

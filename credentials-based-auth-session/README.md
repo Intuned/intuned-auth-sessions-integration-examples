@@ -45,7 +45,7 @@ export function getIntunedClient() {
 }
 ```
 
-2. generate a recorder-based auth session for the user.
+2. start the auth session creation operation with user credentials.
 
 ```ts
     // start the auth session creation operation with user credentials
@@ -95,6 +95,10 @@ export function getIntunedClient() {
       await new Promise((resolve) => setTimeout(resolve, 1000));
     }
 ```
+
+> [!NOTE]
+> the result api might return `requested_more_info` if the login process needs any additional information from the user (like otp). for this example it's not required.
+
 
 3. use the auth session id to automate open hrm actions afterwards. you can use sync or async calls to run your actions. learn more about [run apis](https://docs.intunedhq.com/client-apis/api-reference/run-overview).
 
