@@ -33,7 +33,7 @@ Before using the examples, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/intuned-auth-sessions-integration-examples.git
+   git clone https://github.com/Intuned/intuned-auth-sessions-integration-examples
    ```
 
 2. Navigate to the project directory:
