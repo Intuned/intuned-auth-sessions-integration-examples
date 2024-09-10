@@ -54,6 +54,8 @@ Each folder in the repository contains a complete example project showcasing a d
 
 1. **Example 1: [Automate Linkedin actions using recorder-based Auth Sessions](https://github.com/Intuned/intuned-auth-sessions-integration-examples/tree/main/linkedin-recorder-based-auth-sessions)**   
 2. **Example 2: [Automate back-office action using Credentials-based auth sessions](https://github.com/Intuned/intuned-auth-sessions-integration-examples/tree/main/credentials-based-auth-session)**
+3. **Example 3: [Automate action on a website that requires two factor authentication](https://github.com/Intuned/intuned-auth-sessions-integration-examples/tree/main/credentials-based-auth-session-with-2fa)**
+
 
 Each example is documented with detailed setup instructions and code explanations. Check the `README.md` inside each example folder for more details.
 
