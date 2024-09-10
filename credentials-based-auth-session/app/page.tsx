@@ -1,7 +1,7 @@
 import { getIntunedConnectionStatus } from "@/lib/services/connections";
 import { ConnectCard } from "./components/connect-card";
 import { LogoutButton } from "./components/logout-button";
-import { LikePostForm } from "./components/get-claims-card";
+import { ListClaimsForm } from "./components/get-claims-card";
 import { DisconnectButton } from "./components/dissconnect-button";
 
 export default async function page() {
@@ -18,7 +18,7 @@ export default async function page() {
 
       <div className="mt-10">
         {connection.status === "READY" ? (
-          <LikePostForm />
+          <ListClaimsForm />
         ) : (
           <ConnectCard status={connection.status} />
         )}

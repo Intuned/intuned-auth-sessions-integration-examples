@@ -11,7 +11,7 @@ import {
 import { getClaims as getPackages } from "@/lib/server-actions/get-packages";
 import { useState } from "react";
 
-export function LikePostForm() {
+export function ListNpmPackages() {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<any>(null);
 

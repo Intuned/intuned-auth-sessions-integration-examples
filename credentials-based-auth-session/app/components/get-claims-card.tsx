@@ -11,7 +11,7 @@ import {
 import { getClaims } from "@/lib/server-actions/get-claims";
 import { useState } from "react";
 
-export function LikePostForm() {
+export function ListClaimsForm() {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<any>(null);
 
