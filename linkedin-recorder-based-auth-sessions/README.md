@@ -27,7 +27,6 @@ yarn dev
 > [!NOTE]
 > communication with intuned should happen on the server, the project uses react server actions to do that for simplicity, you can replace these actions with apis. 
 
-
 1. Using Intuned's client sdk to interact with the platform.
 
 ```ts

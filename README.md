@@ -52,7 +52,7 @@ Before using the examples, ensure you have the following installed:
 
 Each folder in the repository contains a complete example project showcasing a different integration use case with Intuned's **Auth Sessions**. Examples include:
 
-1. **Example 1: [Automate Linkedin actions using recorder-based Auth Sessions](https://github.com/Intuned/intuned-auth-sessions-integration-examples/tree/main/linkedin-recorder)**   
+1. **Example 1: [Automate Linkedin actions using recorder-based Auth Sessions](https://github.com/Intuned/intuned-auth-sessions-integration-examples/tree/main/linkedin-recorder-based-auth-sessions)**   
 2. **Example 2: [Automate back-office action using Credentials-based auth sessions](https://github.com/Intuned/intuned-auth-sessions-integration-examples/tree/main/credentials-based-auth-session)**
 
 Each example is documented with detailed setup instructions and code explanations. Check the `README.md` inside each example folder for more details.
