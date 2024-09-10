@@ -1,0 +1,1 @@
+ALTER TABLE "connection" ALTER COLUMN "intuned_auth_session_id" SET NOT NULL;
